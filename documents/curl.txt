@@ -1,0 +1,6 @@
+curl --location 'localhost:8080/notifications' \
+--header 'Content-Type: application/json' \
+--data '{
+    "message" : "message test",
+    "id" : "12345"
+}'
